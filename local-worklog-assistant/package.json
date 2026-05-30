@@ -1,0 +1,18 @@
+{
+  "name": "local-worklog-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local desktop work activity recorder with timeline, reports, heat map, app usage stats, and local API.",
+  "scripts": {
+    "start": "node src/main.mjs",
+    "desktop": "electron electron/main.cjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}
